@@ -149,7 +149,7 @@ public class Ass1 {
     public static int removeElement(int[] nums, int val){
         int total = 0;
         int ind = 0;
-        // O(
+
         for(int i = 0; i < nums.length; i++){
             if(nums[i] != val){
                 nums[ind] = nums[i];
